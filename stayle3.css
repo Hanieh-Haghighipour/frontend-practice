@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(53, 182, 135);
+}
+fieldset{
+    background-color: aliceblue;
+    width: 315px;
+    height: 410px;
+    margin-right: 37%;
+    margin-top: 15%;
+    border-radius: 5%;
+}
+#a1{
+    color: aliceblue;
+    background-color: rgb(39, 235, 114);
+    width:50%;
+    border-radius: 5%;
+    border-color: rgb(39, 235, 114);
+}
+ .email-input {
+      direction: rtl;
+      text-align: right;
+      transition: all 0.3s ease;
+    }
+.email-input:not(:placeholder-shown) {
+    direction: ltr;
+    text-align: left;
+}
+.A1{
+    padding: 3%;
+}
