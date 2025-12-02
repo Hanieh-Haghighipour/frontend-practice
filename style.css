@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'Shabnam';
+  src: url(shabnam/Shabnam-Bold.woff2) format('woff2'),
+       url(shabnam/Shabnam-Bold.woff) format('woff'),
+       url(shabnam/Shabnam-Bold.ttf) format('truetype');
+  font-weight: normal;
+}
+
+body {
+    background-color:#fafafa;
+    font-family: 'Shabnam', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section_head,
+.row {
+    margin-bottom: 10px;
+}
+
+.right_head,
+.left_head {
+    display: inline-flex;
+}
+
+.right_head img {
+    margin-top: -4px;
+}
+
+.section_head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1216px;
+    margin: 56px auto;
+}
+
+.row {
+    display: flex;
+    gap: 14px;
+    justify-content: space-between;
+}
+
+.row img {
+    width: 250px;
+    height: 160px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 280px;
+    color: #455A64;
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 25px #E1F5FE;
+}
+
+.title {
+    min-height: 60px;
+    margin-bottom: 10px;
+
+}
+
+.discount {
+    display: inline-block;
+    padding: 2px 6px;
+    background-color: #E3F2FD;
+    border: 1px solid #E3F2FD;
+    color: #2196F3;
+    border-radius: 5px;
+    line-height: 1.2;
+}
+
+.box1a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: auto;
+}
+
+.old_price {
+    text-decoration: line-through;
+    color: rgb(103, 103, 103);
+}
+.box2a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.pricebox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.price {
+    color: black;
+    font-size: 17px;
+}
+.scor {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.scor svg {
+    color: rgb(255, 221, 31);
+    width: 16px;
+    height: 16px;
+}
+.box1a, .box2a{
+    margin-bottom: -20px;
+}
